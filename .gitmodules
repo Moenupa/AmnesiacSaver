@@ -1,0 +1,6 @@
+[submodule "AmnesiacSaviorWeb"]
+	path = AmnesiacSaviorWeb
+	url = https://github.com/Moenupa/AmnesiacSaviorWeb.git
+[submodule "AmnesiacSaviorCrx"]
+	path = AmnesiacSaviorCrx
+	url = https://github.com/Moenupa/AmnesiacSaviorCrx.git

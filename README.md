@@ -50,3 +50,7 @@ The chrome extension supports automatic parsing of selected text and several eas
 - Frontend: HTML, CSS, JavaScript, Vue.js
 
 ![Conceptual Implementation](./res/Amnesiac_Savior.png)
+
+# Open Source Libs
+
+- Angel icon from <a href="https://iconscout.com/icon/angel-369" target="_blank">Angel Icon</a> by <a href="https://iconscout.com/contributors/achmmadfauzi" target="_blank">Fauzi Arts</a>

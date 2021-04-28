@@ -7,6 +7,14 @@ Name|Role|Responsibility
 MAN Furui | Backend | Database, Interaction
 WANG Meng | Frontend | UI, Interaction
 
+## Deployment
+
+```sh
+git clone https://github.com/Moenupa/AmnesiacSavior.git
+cd AmnesiacSavior
+git submodule update
+```
+
 ## Project Proposal
 
 ### Project Title

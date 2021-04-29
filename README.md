@@ -1,6 +1,6 @@
 # Amnesiac Savior: Plan Important Events with a Click.
 
-![Conceptual Implementation](./res/Amnesiac_Savior.png)
+[![Conceptual Implementation](./res/Amnesiac_Savior.png)](https://github.com/Moenupa/AmnesiacSavior)
 
 For further information, visit [documentation](https://www.notion.so/moenupa/COMP3421-Final-Project-Amnesiac-Savior-146b37802de44fa4a7595ff21c766afc#9a371c4f163d43f3ad9b9b99daffb10f).
 
@@ -8,7 +8,7 @@ For further information, visit [documentation](https://www.notion.so/moenupa/COM
 
 You can access this web application directly via [this link🔗](https://amnesiac-savior.herokuapp.com/).
 
-Alternatively, if you would like to deploy this project locally, execute the following script.
+Alternatively, if you would like to deploy this project locally, execute the following script. (You can also use unzip source code package to replace `git clone` command)
 
 ```sh
 git clone https://github.com/Moenupa/AmnesiacSaviorWeb.git
@@ -54,6 +54,10 @@ The web application supports list-view of all events, event scheduling, and clou
 
 - Full browser support is not yet completed. For the time being, access via Chrome or Chromium to obtain the best experience.
 - Token should not be too simple to prevent other's access
+
+## License
+
+This project is licensed under the [GPL-3.0](./LICENSE).
 
 ## Reference
 

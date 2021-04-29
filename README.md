@@ -1,56 +1,63 @@
 # Amnesiac Savior: Plan Important Events with a Click.
 
-## Team Composition
+![Conceptual Implementation](./res/Amnesiac_Savior.png)
 
-Name|Role|Responsibility
-:-:|:-:|:-:|
-MAN Furui | Backend | Database, Interaction
-WANG Meng | Frontend | UI, Interaction
+For further information, visit [documentation](https://www.notion.so/moenupa/COMP3421-Final-Project-Amnesiac-Savior-146b37802de44fa4a7595ff21c766afc#9a371c4f163d43f3ad9b9b99daffb10f).
 
 ## Deployment
 
+You can access this web application directly via [this link🔗](https://amnesiac-savior.herokuapp.com/).
+
+Alternatively, if you would like to deploy this project locally, execute the following script.
+
 ```sh
-git clone https://github.com/Moenupa/AmnesiacSavior.git
-cd AmnesiacSavior
-git submodule update
+git clone https://github.com/Moenupa/AmnesiacSaviorWeb.git
+cd AmnesiacSaviorWeb
+npm install
+npm run build
+npm run start
 ```
 
-## Project Proposal
-
-### Project Title
-
-Amnesiac Savior: Plan Important Events with a Click.
-
-### Motivation
+## Motivation
 
 Blackboard learn is considered a great web study platform, but sometimes its information is so detailed that students may miss important events. In addition, blackboard monitors flooded messages of all courses, important notification is not sufficiently emphasized for forgetful guys like one of the developers.
 
 Thus, to prevent forgetful guys from missing their quizzes, DDLs, and other important events, we decided to develop Amnesiac Savior in aid of recording important events.
 
-### Outline
+## Outline
 
-A **web application** with which users can schedule their desired events with custom alert messages, along with a **chrome extension** is provided with which users can detects hovered selected texts and pop up a reminder for the event, for the sake of convenience. 
+A **web application** with which users can schedule their desired events with custom alert messages. 
 
-> 🗃 Selection Detection, Cloud Synchronization, and ListView Management
+> 🗃 Cloud Synchronization, and ListView Management
 
 The web application supports list-view of all events, event scheduling, and cloud synchronization.
 
-The chrome extension supports automatic parsing of selected text and several ease-access features, and prompt alert when event reminders are triggered.
-
-### Highlights
+## Highlights
 
 - View and Manage all deadlines in a ListView
 - Cloud database to synchronize between devices
-- Automatically parse deadline to time from the selection
-- Real-time pop-up modal when selecting text for easy-access
+- Material Design
 
-### Prefered Implementation
+## Implementation
 
-- Backend: Firebase and node.js
-- Frontend: HTML, CSS, JavaScript, Vue.js
+- Backend: Firebase and Heroku with node.js hosting
+- Frontend: Vue.js, JavaScript, HTML, CSS
 
-![Conceptual Implementation](./res/Amnesiac_Savior.png)
+## Usage
 
-# Open Source Libs
+1. Enter a token to distinguish from others. The token can be re-used and if so, data will be restored.
+2. Select a date.
+3. Add, mark as finished or permanently delete todo-item(s).
+4. Select any date to examine or modify todo-items.
 
-- Angel icon from <a href="https://iconscout.com/icon/angel-369" target="_blank">Angel Icon</a> by <a href="https://iconscout.com/contributors/achmmadfauzi" target="_blank">Fauzi Arts</a>
+## Notice
+
+- Full browser support is not yet completed. For the time being, access via Chrome or Chromium to obtain the best experience.
+- Token should not be too simple to prevent other's access
+
+## Reference
+
+- [Nuxt & Firebase](https://firebase.nuxtjs.org/)
+- [Simple ToDo List with Vue.js](https://vuejsfeed.com/blog/simple-todo-list-with-vue-js)
+- [vue2-datepicker](https://github.com/mengxiong10/vue2-datepicker) avaiable via `npm`
+- Angel icon from [Angel Icon](https://iconscout.com/icon/angel-369) by [Fauzi Arts](https://iconscout.com/contributors/achmmadfauzi)

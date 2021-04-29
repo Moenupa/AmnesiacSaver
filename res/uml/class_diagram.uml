@@ -1,0 +1,38 @@
+@startuml
+component components {
+
+	class Datepicker {
+	}
+
+	class Calendar {
+		+curTargetDate
+	}
+
+	class TodoList {
+		+newTask
+		+addTask()
+		+deleteTask()
+		+clearList()
+		+taskChecked()
+		+isTargetDate()
+	}
+
+	class Token {
+		+token
+		+lock
+		+addToken()
+	}
+	Calendar --> Datepicker
+}
+
+class index as "index.vue" {
+	+tasks[]
+	+days[]
+	+months
+	+async readFromFirestore()
+	+async writeToFirestore()
+	+getDateAppendix()
+	+getDate()
+}
+
+@enduml
